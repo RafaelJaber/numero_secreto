@@ -5,6 +5,7 @@
     --secondary-color: #3AB4F2;
     --tertiary-color: #F2DF3A;
     --white: #FFFFFF;
+    --black: #3f3f3f;
     --font-family: 'Montserrat', sans-serif;
 }
 
@@ -43,6 +44,27 @@ h3 {
 
 .mensagem {
     font-size: 1.5em;
+}
+
+.btn-jogar {
+    background-color: transparent;
+    border: 2px solid var(--primary-color);
+    padding: 1.5em 2.5em;
+    font-size: .8em;
+    color: var(--primary-color);
+    cursor: pointer;
+    border-radius: 10px;
+    text-transform: uppercase;
+    transition: all 150ms cubic-bezier(.48,.21,.36,.92);
+}
+
+.btn-jogar:hover {
+    background-color: var(--tertiary-color);
+    color: var(--black);
+}
+
+.btn-jogar:active {
+    background-color: var(--primary-color);
 }
 
 .box {
